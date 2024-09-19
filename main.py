@@ -8,7 +8,7 @@ class YouTubeDownloader:
         self.base_path = base_path
         self.base_quiet = base_quiet
 
-    def download_video(self, path="download/videos/", format="best") -> None:
+    def download_video(self, path="download/videos/", format="best"):
         """
         Загрузка видео.
         """
@@ -33,7 +33,7 @@ class YouTubeDownloader:
         else:
             print("Successfully downloaded.")
 
-    def get_info_dict(self) -> list[dict]:
+    def get_info_dict(self):
         """
         Извлечение метаданных.
         """
@@ -51,7 +51,7 @@ class YouTubeDownloader:
 
         return info_list
 
-    def download_audio(self, path="download/audios/", format="bestaudio/best") -> None:
+    def download_audio(self, path="download/audios/", format="bestaudio/best"):
         """
         Загрузка аудио.
         """
@@ -78,7 +78,7 @@ class YouTubeDownloader:
         else:
             print("Successfully downloaded.")
 
-    def download_playlist(self, path="download/playlists/", format="best") -> None:
+    def download_playlist(self, path="download/playlists/", format="best"):
         """
         Загрузка плейлиста.
         """
