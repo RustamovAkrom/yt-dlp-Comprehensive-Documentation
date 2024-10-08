@@ -1,2 +1,3 @@
 yt-dlp
 pylint==3.2.7
+colorama
